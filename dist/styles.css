@@ -1,10 +1,13 @@
 body{
     margin: 0px;
+    background-color: #c0d6df;
+    height: 100vh;
+    width: 100vw;
 }
 
 #header{
     color: grey;
-    background-color: bisque;
+    background-color: #e8dab2;
     display: flex;
     flex-direction: row;
 }
@@ -32,4 +35,22 @@ body{
     border: 1px solid black;
     border-radius: 8px 8px 0px 0px;
     padding: 4px;
+}
+
+
+#main{
+    height: 100%;
+}
+
+#panel{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 45px;
+    background-color: #4f6d7a;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+    margin-top: 30px;
 }
