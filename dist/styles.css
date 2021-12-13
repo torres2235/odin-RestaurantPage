@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+
+#header{
+    color: grey;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    font-size: 24px;
+    padding: 16px;
+}
+
+#tabs{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+}
+
+#header,
+#tabs{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabs{
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px 8px 0px 0px;
+    padding: 4px;
+}
